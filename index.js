@@ -87,6 +87,6 @@ function showMessage(message, className) {
 // Truncate Text
 function truncateText(text, limit) {
    const shortend = text.indexOf(' ', limit);
-   if(shortend == -1) return text;
+   if(shortend === -1) return text;
    return text.substring(0, shortend);
 }
